@@ -16,5 +16,5 @@ sidebar_position: 2
 2. Add `marssquirrel/toolbox` to your dependencies
 
 ```toml
-Toolbox = "MarsSquirrel/toolbox@^1.0.0"
+Toolbox = "marssquirrel/toolbox@^1.0.0"
 ```
