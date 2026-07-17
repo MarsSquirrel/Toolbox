@@ -1,0 +1,37 @@
+title = "Toolbox"
+
+gitRepoUrl = "https://github.com/MarsSquirrel/Toolbox"
+
+[docusaurus]
+url = "https://marssquirrel.github.io"
+baseUrl = "/Toolbox/"
+organizationName = "MarsSquirrel"
+projectName = "Toolbox"
+tagline = "A collection of reusable, type-safe Roblox Luau utility functions designed to simplify common development tasks."
+
+[[navbar.items]]
+className = "discord-logo-link"
+href = "https://discord.gg/AN3uPkBFF"
+position = "right"
+title = "Discord"
+
+[[navbar.items]]
+href = "https://twitter.com/noMarsHere"
+label = "Twitter"
+position = "right"
+
+[home]
+enabled = true
+includeReadme = true
+
+[[home.features]]
+title = "Instance Management"
+description = "Simplify working with Roblox Instances using powerful utilities for searching, modifying, cleaning up, and organizing objects."
+
+[[home.features]]
+title = "Player Utilities"
+description = "Handle players, characters, tools, animations, and common gameplay operations with simple, reusable functions."
+
+[[home.features]]
+title = "Developer Debugging"
+description = "Inspect tables, instances, and player state with built-in debugging tools designed to speed up development."
