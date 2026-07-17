@@ -22,7 +22,7 @@ Install Toolbox using Wally:
 
 ```toml
 [dependencies]
-Toolbox = "marssquirrel/toolbox@^1.0.0"
+Toolbox = "marssquirrel/toolbox@^1.0.1"
 ```
 
 ## Usage
