@@ -1,9 +1,6 @@
 {
   "name": "toolbox",
   "tree": {
-    "$className": "ModuleScript",
-    "src": {
-      "$path": "src"
-    }
+    "$path": "src"
   }
 }
