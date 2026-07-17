@@ -25,7 +25,7 @@ Install Toolbox using Wally:
 Toolbox = "marssquirrel/toolbox@^1.0.0"
 ```
 
-### Usage
+## Usage
 
 Toolbox exposes all utilities through a single flattened API.
 
@@ -54,7 +54,7 @@ print(formatted)
 -- HelloWorld
 ```
 
-### Contributing
+## Contributing
 
 Contributions are welcome and appreciated!
 
@@ -66,3 +66,64 @@ When adding new utilities:
 * Avoid adding highly specific game logic.
 
 Open a PR to submit a new function or utility.
+
+## API
+
+### Debug Utilities
+`PrintTable`  
+`PrintInstanceTree`  
+`DumpPlayer`  
+
+---
+
+### Instance Utilities
+`WaitForDescendantOfClass`  
+`GetChildrenOfClass`  
+`GetDescendantsOfClass`  
+`SafeDestroy`  
+`SetProperties`  
+`RemoveInstancesOfClass`  
+`RemoveInstancesByName`  
+`CountDescendants`  
+`CountChildren`  
+`CountDescendantsOfClass`  
+`CountChildrenOfClass`  
+
+---
+
+### Player Utilities
+`WaitForCharacter`  
+`GetHumanoid`  
+`WaitForHumanoid`  
+`GetRoot`  
+`WaitForRoot`  
+`IsAlive`  
+`GetPosition`  
+`GetDistance`  
+`GetPlayersInRadius`  
+`GetPlayerByPartialName`  
+`GetAnimator`  
+`LoadAnimation`  
+`GetTools`  
+`GetEquippedTool`  
+`GetLeaderstats`  
+`Respawn`  
+
+---
+
+### String Utilities
+`Trim`  
+`StartsWith`  
+`EndsWith`  
+`Contains`  
+`Capitalize`  
+`ToPascalCase`  
+`ToCamelCase`  
+`ToSnakeCase`  
+`ToKebabCase`  
+`RemoveWhitespace`  
+`Shorten`  
+`IsEmpty`  
+`IsBlank`  
+`PadLeft`  
+`PadRight`
