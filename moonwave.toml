@@ -1,5 +1,6 @@
 title = "Toolbox"
 
+gitSourceBranch = "main"
 gitRepoUrl = "https://github.com/MarsSquirrel/Toolbox"
 
 [docusaurus]
