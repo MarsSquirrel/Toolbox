@@ -4,8 +4,8 @@ gitSourceBranch = "main"
 gitRepoUrl = "https://github.com/MarsSquirrel/Toolbox"
 
 [docusaurus]
-url = "https://marsss.dev/"
-baseUrl = "/toolbox/"
+url = "https://marssquirrel.github.io"
+baseUrl = "/Toolbox/"
 organizationName = "MarsSquirrel"
 projectName = "Toolbox"
 tagline = "A collection of reusable, type-safe Roblox Luau utility functions designed to simplify common development tasks."
