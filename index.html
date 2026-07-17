@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.10.1">
 <title data-rh="true">Toolbox</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://marssquirrel.github.io/Toolbox/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Toolbox"><link data-rh="true" rel="canonical" href="https://marssquirrel.github.io/Toolbox/"><link data-rh="true" rel="alternate" href="https://marssquirrel.github.io/Toolbox/" hreflang="en"><link data-rh="true" rel="alternate" href="https://marssquirrel.github.io/Toolbox/" hreflang="x-default"><script data-rh="true">function insertBanner(){var n=document.createElement("div");n.id="__docusaurus-base-url-issue-banner-container";n.innerHTML='\n<div id="__docusaurus-base-url-issue-banner" style="border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;">\n   <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>\n   <p>A very common reason is a wrong site <a href="https://docusaurus.io/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>\n   <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">/Toolbox/</span> </p>\n   <p>We suggest trying baseUrl = <span id="__docusaurus-base-url-issue-banner-suggestion-container" style="font-weight: bold; color: green;"></span></p>\n</div>\n',document.body.prepend(n);var e=document.getElementById("__docusaurus-base-url-issue-banner-suggestion-container"),o=window.location.pathname,s="/"===o.substr(-1)?o:o+"/";e.innerHTML=s}document.addEventListener("DOMContentLoaded",(function(){void 0===window.docusaurus&&insertBanner()}))</script><link rel="stylesheet" href="/Toolbox/assets/css/styles.5ec48d9a.css">
-<script src="/Toolbox/assets/js/runtime~main.96d55316.js" defer="defer"></script>
-<script src="/Toolbox/assets/js/main.92167766.js" defer="defer"></script>
+<script src="/Toolbox/assets/js/runtime~main.6d8dc973.js" defer="defer"></script>
+<script src="/Toolbox/assets/js/main.89a70492.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -29,7 +29,7 @@
 <pre><code class="language-toml">[dependencies]
 Toolbox = &quot;marssquirrel/toolbox@^1.0.0&quot;
 </code></pre>
-<h3 id="usage">Usage</h3>
+<h2 id="usage">Usage</h2>
 <p>Toolbox exposes all utilities through a single flattened API.</p>
 <pre><code class="language-luau">local Toolbox = require(path.to.Toolbox)
 
@@ -48,7 +48,7 @@ end
 print(formatted)
 -- HelloWorld
 </code></pre>
-<h3 id="contributing">Contributing</h3>
+<h2 id="contributing">Contributing</h2>
 <p>Contributions are welcome and appreciated!</p>
 <p>When adding new utilities:</p>
 <ul>
@@ -57,6 +57,59 @@ print(formatted)
 <li>Place utilities in the appropriate module.</li>
 <li>Avoid adding highly specific game logic.</li>
 </ul>
-<p>Open a PR to submit a new function or utility.</p></div></main></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 MarsSquirrel. Built with Moonwave and Docusaurus.</div></div></div></footer></div>
+<p>Open a PR to submit a new function or utility.</p>
+<h2 id="api">API</h2>
+<h3 id="debug-utilities">Debug Utilities</h3>
+<p><code>PrintTable</code><br>
+<code>PrintInstanceTree</code><br>
+<code>DumpPlayer</code></p>
+<hr>
+<h3 id="instance-utilities">Instance Utilities</h3>
+<p><code>WaitForDescendantOfClass</code><br>
+<code>GetChildrenOfClass</code><br>
+<code>GetDescendantsOfClass</code><br>
+<code>SafeDestroy</code><br>
+<code>SetProperties</code><br>
+<code>RemoveInstancesOfClass</code><br>
+<code>RemoveInstancesByName</code><br>
+<code>CountDescendants</code><br>
+<code>CountChildren</code><br>
+<code>CountDescendantsOfClass</code><br>
+<code>CountChildrenOfClass</code></p>
+<hr>
+<h3 id="player-utilities">Player Utilities</h3>
+<p><code>WaitForCharacter</code><br>
+<code>GetHumanoid</code><br>
+<code>WaitForHumanoid</code><br>
+<code>GetRoot</code><br>
+<code>WaitForRoot</code><br>
+<code>IsAlive</code><br>
+<code>GetPosition</code><br>
+<code>GetDistance</code><br>
+<code>GetPlayersInRadius</code><br>
+<code>GetPlayerByPartialName</code><br>
+<code>GetAnimator</code><br>
+<code>LoadAnimation</code><br>
+<code>GetTools</code><br>
+<code>GetEquippedTool</code><br>
+<code>GetLeaderstats</code><br>
+<code>Respawn</code></p>
+<hr>
+<h3 id="string-utilities">String Utilities</h3>
+<p><code>Trim</code><br>
+<code>StartsWith</code><br>
+<code>EndsWith</code><br>
+<code>Contains</code><br>
+<code>Capitalize</code><br>
+<code>ToPascalCase</code><br>
+<code>ToCamelCase</code><br>
+<code>ToSnakeCase</code><br>
+<code>ToKebabCase</code><br>
+<code>RemoveWhitespace</code><br>
+<code>Shorten</code><br>
+<code>IsEmpty</code><br>
+<code>IsBlank</code><br>
+<code>PadLeft</code><br>
+<code>PadRight</code></p></div></main></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 MarsSquirrel. Built with Moonwave and Docusaurus.</div></div></div></footer></div>
 </body>
 </html>
